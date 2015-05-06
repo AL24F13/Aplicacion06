@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Aplicacion06</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js" type="text/javascript"></script> 
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Aplicacion06</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div id="botones" data-role="controlgroup" data-type="vertical" 
+    align="center" >
+    <div style="width:50%">
+     <a href="#" id="btnvibrar"
+    class="ui-btn ui-corner-all">Vibrar</a>
+     <input type="button" id="btnbeep" value="Beep">
+       <a href="#barrer" id="btndatos"
+    class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-corner-all">Barrer</a>
+     <a href="#eventos" id="btneventos"
+    class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-corner-all">Eventos</a>
+    </div>
+   </div>   <!--Fin botones-->
+  </div> 
+
+  <div data-role="footer">
+    <h1>@Raúl Manzano Torres </h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+
+<!-- Barrer -->
+ <div data-role="page" id="barrer" >   
+  <div data-role="header">
+    <h1>Barrer</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+   <div id="izquierda" style="text-align:center; background-color:#6FF; color:#FFF">
+    <h1>Izquierda</h1> 
+   </div>
+   
+   <div id="derecha" style="text-align:center; background-color:#9F6; color:#FFF">
+    <h1>Derecha</h1>
+   </div>
+   
+  </div>
+
+  <div data-role="footer">
+    <h1>@Raúl Manzano Torres</h1>
+  </div>
+ </div>  
+ <!-- FinBarrer -->
+ 
+  <!-- Eventos -->
+ <div data-role="page" id="eventos" >   
+  <div data-role="header">
+    <h1>Eventos</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div id="listado" data-role="controlgroup" data-type="vertical" 
+    align="center" >
+   
+    </div>
+  
+  <div data-role="footer">
+    <h1>@Raúl Manzano Torres</h1>
+  </div>
+ </div>  <!-- FinEventos -->
+ 
+
+ </body>
+</html> 
